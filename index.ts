@@ -2,13 +2,13 @@
 import './style.css';
 import { User } from './user';
 
-export const user1: User = {
+var user1: User = {
   firstname: 'Christophe',
   name: 'Mensah',
   age: 50,
 };
 
-export const user2: User = {
+var user2: User = {
   firstname: 'kirisutofu',
   name: 'Mensah',
   age: 50,
@@ -36,7 +36,7 @@ function getUser() {
   return table;
 }
 
-let a = getUser();
+let tab = getUser();
 
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = a;
+appDiv.innerHTML = tab;
